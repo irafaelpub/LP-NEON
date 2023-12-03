@@ -1,0 +1,34 @@
+h1 {
+    font-size: 6.4rem;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 2.4rem;
+    line-height: 150%; /* 36px */
+}
+
+h4 {
+    font-size: 2rem;
+    line-height: 112%; /* 22.4px */
+ }
+
+h1,h2 {
+    line-height: 112%; /* 71.68px */
+    letter-spacing: -1px;
+}
+
+h3,h4 {
+    font-weight: 500;
+    letter-spacing: -0.5px;
+}
+
+h1,h2,h3,h4 {
+    font-family: 'Poppins', sans-serif;
+    color: $grey-500;
+}
