@@ -261,7 +261,7 @@
 .s-depoimentos {
     padding-top: 13.4rem;
     .top {
-        @include flex (row, end, space-between)
+        @include flex (row, end, space-between);
         margin-bottom: 4rem;
         h2 {
             span {
