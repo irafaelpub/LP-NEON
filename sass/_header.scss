@@ -37,5 +37,56 @@ header {
             }
         }
     }
+    .btn-mobile{
+        display: none;
+        margin-left: 4rem;
+    }
+    
+    @include responsive(1150px){
+        nav {
+            ul {
+                margin-right: 3rem;
+                &:not(:first-child){
+                    margin-left: 2.5rem;
+                }
+            }
+        }
+    }
+
+    @include responsive(1060px){
+        .logo {
+            max-width: 108px;
+        }
+               nav {
+            ul {
+                display: none;
+            }
+        }
+        .btn-mobile {
+            display: block;
+        }
+    }
+    @include responsive(991px){
+        .logo {
+            max-width: 108px;
+        }
+               nav {
+            ul {
+                display: none;
+            }
+        }
+        .btn-mobile {
+            display: block;
+        }
+    }
+
+    @include responsive (480px){
+        height: 7.3rem;
+        nav {
+            .btn-secundary {
+                display: none;
+            }
+        }
+    }
     
 }
