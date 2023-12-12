@@ -89,6 +89,11 @@
             margin-right: -13.4rem;
         }
     }
+    @include responsive(1366px){
+        .area-image{
+            margin-right: -8rem;
+        }
+    }
    
 }
 
