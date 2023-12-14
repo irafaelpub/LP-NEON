@@ -398,7 +398,7 @@
                     font-size: 1.6rem;
                     line-height: 150%;
                     margin-bottom: 3.1rem;
-                }
+                                    }
 
                 .btns {
                     display: flex;
@@ -412,6 +412,41 @@
             }
             .image {
                 margin-right: -3.1rem;
+            }
+        }
+    }
+    @include responsive (1200px){
+        .left-area {
+            .ilustra-mockup {
+                .circle {
+                    display: none;
+                }
+            }
+        }
+        .right-area {
+            width: 100%;
+            max-width: 73rem;
+            .main-txt {
+                ul {
+                    li {
+                        .info {
+                            .txt {
+                                margin-left: 2rem;
+                            }
+                        }
+                    }
+                }
+            }
+            .box-card {
+                padding-left: 3.5rem;
+                .text {
+                    p {
+                        max-width: 31rem;
+                    }
+                }
+                .image {
+                    margin-right: -1rem;
+                }
             }
         }
     }
